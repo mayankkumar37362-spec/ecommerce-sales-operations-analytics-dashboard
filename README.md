@@ -1,16 +1,16 @@
-
-# ecommerce-sales-operations-analytics-dashboard
-Interactive Power BI dashboard analysing 100K+ e-commerce orders EDA using Python, SQL, DAX and Power BI.
-
 # 🛒 E-Commerce Sales & Operations Analytics Dashboard
 
-## 📌 Project Overview
+Interactive Power BI dashboard analyzing **100K+ e-commerce orders** using **Python, SQL (PostgreSQL), DAX, Power Query, and Power BI**.
 
-This project is an end-to-end Business Intelligence solution developed using the **Brazilian Olist E-Commerce Dataset**. The goal was to transform raw transactional data into actionable business insights through data cleaning, SQL analysis, DAX measures, and interactive Power BI dashboards.
+---
 
-The dashboard enables stakeholders to monitor sales performance, customer behaviour, payment preferences, and logistics efficiency from a single reporting interface.
+# 📌 Project Overview
 
-The dataset has been taken from kagle. It has 9 dimension tables.
+This project is an end-to-end Business Intelligence solution developed using the **Brazilian Olist E-Commerce Dataset**. The objective was to transform raw transactional data into actionable business insights through data cleaning, SQL analysis, DAX measures, and interactive Power BI dashboards.
+
+The dashboard enables business stakeholders to monitor sales performance, customer behaviour, payment preferences, and logistics efficiency from a single reporting interface.
+
+The dataset was obtained from **Kaggle** and consists of **9 relational tables** containing information about customers, orders, products, sellers, payments, reviews, and deliveries.
 
 ---
 
@@ -18,14 +18,14 @@ The dataset has been taken from kagle. It has 9 dimension tables.
 
 E-commerce companies process thousands of transactions every month. However, raw transactional data alone does not provide meaningful insights for business decision-making.
 
-Business teams need answers to questions such as:
+Business stakeholders need answers to questions such as:
 
 - Which states and product categories generate the highest revenue?
 - How do revenue and order volumes change over time?
 - Which payment methods are most preferred by customers?
 - How efficient is the delivery process?
 - What percentage of orders are delivered late?
-- How satisfied are customers based on review ratings?
+- How satisfied are customers based on customer reviews?
 
 This project addresses these challenges by creating an interactive dashboard that enables data-driven decision-making.
 
@@ -56,7 +56,7 @@ This project addresses these challenges by creating an interactive dashboard tha
 
 # 📂 Project Workflow
 
-```
+```text
 Raw Dataset
       │
       ▼
@@ -122,9 +122,9 @@ Interactive Power BI Dashboard
 # 📈 Key Business Insights
 
 - Credit Card is the most preferred payment method.
-- Most customers provide 4-star and 5-star ratings.
-- Average delivery time is approximately 12 days.
-- Around 7% of orders are delivered late.
+- Most customers provide **4-star and 5-star ratings**, indicating high customer satisfaction.
+- Average delivery time is approximately **12 days**.
+- Around **7%** of orders are delivered late.
 - São Paulo contributes the highest overall revenue.
 - Health & Beauty and Watches are among the highest-performing product categories.
 
@@ -139,28 +139,22 @@ Interactive Power BI Dashboard
 ---
 
 ## Customer & Operations Analysis
+
 <img width="1163" height="656" alt="Customer_Operations" src="https://github.com/user-attachments/assets/07a417d4-169e-4111-ad75-8262c0e6f7d8" />
 
 ---
 
 # 📁 Repository Structure
 
-```
-ecommerce-sales-operations-dashboard
+```text
+ecommerce-sales-operations-analytics-dashboard
 │
-├── Dashboard
-│   └── Ecommerce_Sales_Operations_Dashboard.pbix
-│
-├── Notebooks
-│   └── Ecommerce_EDA.ipynb
-│
-├── SQL
-│   └── business_queries.sql
-│
-├── Images
-│   ├── Executive_Overview.png
-│   └── Customer_Operations.png
-│
+├── ecommerce_dashboard.pbix
+├── 01_Data_Understanding_and_Cleaning.ipynb
+├── 02_EDA_Business_Insights.ipynb
+├── bussiness_query.sql
+├── Executive_Overview.png
+├── Customer_Operations.png
 └── README.md
 ```
 
