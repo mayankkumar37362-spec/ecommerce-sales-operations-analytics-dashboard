@@ -1,3 +1,4 @@
+
 # ecommerce-sales-operations-analytics-dashboard
 Interactive Power BI dashboard analysing 100K+ e-commerce orders EDA using Python, SQL, DAX and Power BI.
 
@@ -133,13 +134,12 @@ Interactive Power BI Dashboard
 
 ## Executive Overview
 
-Executive_Overview.png 
+<img width="1161" height="653" alt="Executive_Overview" src="https://github.com/user-attachments/assets/771ff920-2857-4a29-a7d9-1011454e960c" />
 
 ---
 
 ## Customer & Operations Analysis
-
-Customer_Operations.png
+<img width="1163" height="656" alt="Customer_Operations" src="https://github.com/user-attachments/assets/07a417d4-169e-4111-ad75-8262c0e6f7d8" />
 
 ---
 
