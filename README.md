@@ -133,13 +133,13 @@ Interactive Power BI Dashboard
 
 ## Executive Overview
 
-> *(Add Executive_Overview.png here after uploading the image.)*
+Executive_Overview.png 
 
 ---
 
 ## Customer & Operations Analysis
 
-> *(Add Customer_Operations.png here after uploading the image.)*
+Customer_Operations.png
 
 ---
 
